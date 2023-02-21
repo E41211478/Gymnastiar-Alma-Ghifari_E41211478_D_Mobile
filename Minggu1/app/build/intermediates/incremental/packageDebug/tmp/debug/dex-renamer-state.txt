@@ -1,0 +1,10 @@
+#Wed Feb 15 09:54:43 ICT 2023
+base.2=D\:\\Backup agim\\document\\All Project\\Kuliah\\semester 4\\Workshop Mobile\\Gymnastiar-Alma-Ghifari_E41211478_D_Mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
+path.2=3/classes.dex
+base.1=D\:\\Backup agim\\document\\All Project\\Kuliah\\semester 4\\Workshop Mobile\\Gymnastiar-Alma-Ghifari_E41211478_D_Mobile\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+path.1=0/classes.dex
+base.0=D\:\\Backup agim\\document\\All Project\\Kuliah\\semester 4\\Workshop Mobile\\Gymnastiar-Alma-Ghifari_E41211478_D_Mobile\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
