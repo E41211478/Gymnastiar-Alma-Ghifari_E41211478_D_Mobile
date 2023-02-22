@@ -14,9 +14,6 @@ public class mainmenu extends AppCompatActivity {
         setContentView(R.layout.activity_mainmenu);
     }
 
-
-
-
     public void menu(View view){
         Intent intent = new Intent(mainmenu.this,linearlayout.class);
 
@@ -28,7 +25,7 @@ public class mainmenu extends AppCompatActivity {
         startActivity(intent);
     }
     public void menu3(View view){
-        Intent intent = new Intent(mainmenu.this,customize.class);
+        Intent intent = new Intent(mainmenu.this,constraint.class);
 
         startActivity(intent);
     }

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".customize">
+    tools:context=".constraint">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -13,9 +13,8 @@
         android:layout_height="50dp"
         android:layout_marginBottom="50dp"
         android:foregroundGravity="center"
-        app:cardBackgroundColor="@color/material_dynamic_primary60"
+        app:cardBackgroundColor="@color/teal_200"
         app:cardCornerRadius="15dp"
-        app:cardMaxElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
@@ -38,14 +37,10 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="35dp"
         app:layout_constraintBaseline_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        tools:layout_editor_absoluteY="0dp">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cardViews2"
@@ -53,13 +48,11 @@
             android:layout_height="400dp"
             android:layout_marginLeft="156dp"
             android:layout_marginTop="200dp"
-
             android:layout_marginBottom="200dp"
-
             android:foregroundGravity="center"
-            app:cardBackgroundColor="@color/material_dynamic_primary60"
+            app:cardBackgroundColor="@color/teal_200"
             app:cardCornerRadius="25dp"
-            app:cardMaxElevation="210dp"
+            app:cardMaxElevation="20dp"
 
 
             tools:ignore="MissingConstraints"
@@ -67,7 +60,7 @@
             tools:layout_editor_absoluteY="40dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="320dp"
+                android:layout_width="318dp"
                 android:layout_height="438dp"
                 android:layout_gravity="center"
                 android:foregroundGravity="center">
@@ -75,8 +68,8 @@
 
                 <ImageView
                     android:id="@+id/imageView"
-                    android:layout_width="125dp"
-                    android:layout_height="123dp"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
 
                     android:layout_marginTop="28dp"
                     app:layout_constraintBottom_toTopOf="@+id/textInputEditText"
@@ -109,37 +102,11 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     tools:layout_editor_absoluteX="16dp" />
 
-                <!--                <com.google.android.material.textfield.TextInputLayout-->
-                <!--                    android:id="@+id/textInputLayout3"-->
-                <!--                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
-                <!--                    android:layout_width="300dp"-->
-                <!--                    android:layout_height="wrap_content"-->
-                <!--                    android:layout_marginTop="8dp"-->
-                <!--                    android:layout_marginBottom="16dp"-->
-                <!--                    app:layout_constraintBottom_toBottomOf="parent"-->
-                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
-                <!--                    app:layout_constraintStart_toStartOf="parent"-->
-                <!--                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout"-->
-                <!--                    app:passwordToggleTint="@color/teal_200" />-->
 
-                <!--                <com.google.android.material.textfield.TextInputLayout-->
-                <!--                    android:id="@+id/textInputLayout"-->
-                <!--                    android:layout_width="match_parent"-->
-                <!--                    android:layout_height="wrap_content"-->
-                <!--                    android:hint="Password"-->
-                <!--                    android:inputType="textPassword"-->
-                <!--                    app:layout_constraintEnd_toEndOf="parent"-->
-                <!--                    app:layout_constraintStart_toStartOf="parent"-->
-                <!--                    tools:layout_editor_absoluteY="277dp" />-->
             </androidx.constraintlayout.widget.ConstraintLayout>
         </androidx.cardview.widget.CardView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout><!--<androidx.cardview.widget.CardView/>-->
-    <!--<androidx.cardview.widget.CardView-->
-    <!--    android:layout_width="320dp"-->
-    <!--    android:layout_height="320dp"-->
-    <!--    -->
-    <!--    />-->
+</androidx.constraintlayout.widget.ConstraintLayout>

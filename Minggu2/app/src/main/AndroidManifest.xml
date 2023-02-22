@@ -14,6 +14,13 @@
         <activity
             android:name=".linearlayout"
             android:exported="false"/>
+        <activity android:name=".horizontalscrooll" android:exported="false"/>
+        <activity android:name=".vertikalscroll" android:exported="false"/>
+        <activity android:name=".materiandesign" android:exported="false"/>
+        <activity android:name=".tabellayout" android:exported="false"/>
+        <activity android:name=".framelayout" android:exported="false"/>
+        <activity android:name=".constraint" android:exported="false" />
+        <activity android:name=".relativelayout" android:exported="false"/>
         <activity
             android:name=".mainmenu"
             android:exported="true">
@@ -23,13 +30,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".horizontalscrooll" android:exported="false"/>
-        <activity android:name=".vertikalscroll" android:exported="false"/>
-        <activity android:name=".materiandesign" android:exported="false"/>
-        <activity android:name=".tabellayout" android:exported="false"/>
-        <activity android:name=".framelayout" android:exported="false"/>
-        <activity android:name=".customize" android:exported="false" android:label="Constrain Layout"/>
-        <activity android:name=".relativelayout" android:exported="false"/>
     </application>
 
 </manifest>
